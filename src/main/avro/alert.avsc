@@ -1,0 +1,14 @@
+{
+    "namespace": "rt.alert",
+    "type": "record",
+    "name": "Alert",
+    "fields":[
+        {"name": "id", "type": "string"},
+        {"name": "name", "type": "string"},
+        {"name": "value", "type": "string"},
+        {"name": "state", "type": "string"},
+        {"name": "stateFieldsName", "type": {
+            "type": "array", "items": "string"
+        }}
+    ]
+}
